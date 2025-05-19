@@ -15,7 +15,7 @@ export default defineConfig([
       "default-case-last": "error",
       "dot-notation": "error",
       "func-names": ["error", "always"],
-      "capitalized-comments": ["error", "always"],
+      "capitalized-comments": ["error", "never"],
       "prefer-object-spread": "error",
       "prefer-exponentiation-operator": "error",
       "prefer-destructuring": ["error", {"object": true, "array": false}],
